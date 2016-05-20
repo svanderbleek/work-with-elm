@@ -1,4 +1,4 @@
 import Html exposing (..)
 
 main =
-  h1 [] [text "work with elm"]
+  h1 [] [text "Work With Elm"]
