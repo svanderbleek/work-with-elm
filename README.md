@@ -14,8 +14,10 @@ bot.workwithelm.com -> svanderbleek/elm-bot
 
 ## Build
 
+Generate HTML pages in `dst/`:
+
 ```
-elm-make
+./build.sh
 ```
 
 ## Deploy
@@ -23,5 +25,5 @@ elm-make
 S3 deploy to workwithelm bucket with CloudFront SSL:
 
 ```
-TODO
+./deploy.sh
 ```
